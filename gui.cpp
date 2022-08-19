@@ -135,9 +135,6 @@ namespace big
 					ImGui::Spacing();
 					ImGui::Spacing();
 					ImGui::Spacing();
-					if (ImGui::Button("Join My Discord")) {
-						system("https://discord.gg/MBaQjcmEa3");
-					}
 					ImGui::SameLine();
 					if (ImGui::Button("Unload")) {
 						g_running = false;
